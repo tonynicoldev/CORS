@@ -1,0 +1,15 @@
+{
+  "name": "apifetch",
+  "version": "1.0.0",
+  "description": "This is just a basic do nothing of much value type demo that illustrates some html and CSS techniques but the key point is to call an API using the asynchronous Fetch function to illustrate its use.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

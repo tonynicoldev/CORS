@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Drivers Championship</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="drivers.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="drivers.html">Drivers Championship</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="centre">
+      <h1>Drivers Championship</h1>
+      <label for="yearSelect">Choose a year:</label>
+      <select id="yearSelect">
+        <option value="current">Current</option>
+        <option value="2025">2025</option>
+        <option value="2024">2024</option>
+        <option value="2023">2023</option>
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+        <option value="2020">2020</option>
+      </select>
+    </div>
+
+    <table id="driversTable" class="f1-table">
+      <thead>
+        <tr>
+          <th>Pos</th>
+          <th>Driver</th>
+          <th>Points</th>
+          <th>Flag</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+</body>
+
+</html>
